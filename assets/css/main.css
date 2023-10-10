@@ -1543,7 +1543,7 @@ input[type=reset].primary,
 input[type=button].primary,
 button.primary,
 .button.primary {
-  background-color: #000000;
+  background-color: #385873;
   box-shadow: none;
   color: #ffffff !important;
 }
@@ -1552,14 +1552,14 @@ input[type=reset].primary:hover,
 input[type=button].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #ee8787;
+  background-color: #385873c9;
 }
 input[type=submit].primary:active,
 input[type=reset].primary:active,
 input[type=button].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #44f2cb;
+  background-color: #385873;
 }
 @media screen and (max-width: 736px) {
   input[type=submit],
