@@ -107,7 +107,6 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
-/* Typography */
 html {
   font-size: 18pt;
 }
