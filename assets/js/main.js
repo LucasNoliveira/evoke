@@ -82,7 +82,6 @@
 
 		}
 
-	// Gallery.
 		$('.gallery')
 			.on('click', 'a', function(event) {
 
