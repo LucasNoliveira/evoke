@@ -20,6 +20,10 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+li ::marker{
+  display: none;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -2292,7 +2296,7 @@ a.arrow {
   display: inline-block;
   height: 4rem;
   position: relative;
-  width: 6rem;
+  width: fit-content;
 }
 a.arrow .label {
   display: none;
