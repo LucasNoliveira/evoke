@@ -13,7 +13,6 @@
 }
 
 header {
-    /* background: rgb(185, 245, 185); */
     display: flex;
     width: 100vw;
     position: fixed;
@@ -56,7 +55,7 @@ header .logo {
 
 section.hero {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     /* background: #f8f1f1; */
     display: flex;
     align-items: center;
@@ -121,6 +120,14 @@ section.hero .hero-content .hero-text span::before {
     width: fit-content;
     margin-top: 2rem;
     border-radius: .7rem;
+    transition: 150ms ease-in-out;
+    border: 1px solid transparent;
+}
+
+.hero-buttons-container .hero-link:hover{
+    border: 1px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
 }
 
 section.hero .hero-content .hero-img-container{
@@ -133,7 +140,22 @@ section.hero .hero-content .hero-img-container{
 }
 
 section.hero .hero-content .hero-img-container img{
-    height: 70%;
-    width: 70%;
+    height: 65%;
+    width: 65%;
     border-radius: 50%;
+}
+
+section.quem-somos{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+section.quem-somos h2{
+    font-size: 2.2rem;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.8rem 10rem;
 }
