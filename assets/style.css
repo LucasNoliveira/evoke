@@ -34,7 +34,6 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255, 99, 71);
 }
 
 nav {
@@ -176,14 +175,17 @@ section.quem-somos {
 
 section.quem-somos .quemSomosImg{
     width: 50%;
-    background: tomato;
+    background: var(--main-color);
+    padding: 10rem;
 }
 
 
 section.quem-somos .quemSomosTexto {
-    background: #000;
+    /* background: #000; */
     width: 50%;
     height: 100%;
+    padding: 2rem;
+    position: relative;
 }
 
 section.quem-somos h2 {
@@ -191,7 +193,22 @@ section.quem-somos h2 {
     height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    padding: 2.8rem 10rem;
-    background: #000;
+    justify-content: center;
+    color: #385870;
+    /* background: #000; */
+}
+
+section.quem-somos p{
+    font-size: 1.2rem;
+    /* background: rgb(255, 201, 192); */
+    padding: 1rem;
+    color: #385870;
+}
+
+section.quem-somos img.undraw{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    /* background: #000; */
 }
