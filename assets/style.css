@@ -144,9 +144,22 @@ section.hero .hero-content .hero-text h2 img.evokeImg {
 }
 
 .hero-buttons-container .hero-link:hover {
-    border: 1px solid var(--main-color);
+    border: 2px solid var(--main-color);
     background: transparent;
     color: var(--main-color);
+}
+
+.hero-buttons-container .hire-link{
+    background: white;
+    color: var(--secondary-color);
+    font: bold;
+    border: solid 2px var(--secondary-color);
+}
+
+.hero-buttons-container .hire-link:hover{
+    background: #ff3131;
+    color: white;
+    border: solid 2px var(--secondary-color);
 }
 
 section.hero .hero-content .hero-img-container {
