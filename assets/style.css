@@ -1,5 +1,5 @@
 :root {
-    --main-color: #385870;
+    --main-color: linear-gradient(to left, #385870, #4c6a80);;
     --secondary-color: #ff3131;
     --hero-text-h2: 4.5rem;
 }
@@ -192,7 +192,7 @@ section.quem-somos .quemSomosImg{
 
 
 section.quem-somos .quemSomosTexto {
-    /* background: #000; */
+    background: #fdf9f9;
     width: 50%;
     height: 100%;
     padding: 2rem;
