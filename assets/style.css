@@ -223,3 +223,21 @@ section.quem-somos img.undraw{
     transform: translate(-50%);
     /* background: #000; */
 }
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    section.quem-somos{
+        justify-content: initial;
+    }
+
+    section.quem-somos .quemSomosImg {
+        display: none;
+    }
+
+    section.quem-somos .quemSomosTexto{
+        width: 100%;
+    }
+}
