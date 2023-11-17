@@ -198,6 +198,7 @@ section.quem-somos h2 {
     display: flex;
     justify-content: center;
     color: #385870;
+    padding: 1.5rem 0;
     /* background: #000; */
 }
 
@@ -206,6 +207,8 @@ section.quem-somos p{
     /* background: rgb(255, 201, 192); */
     padding: 1rem;
     color: #385870;
+    line-height: 2rem;
+    word-spacing: .5rem;
 }
 
 section.quem-somos img.undraw{
