@@ -84,7 +84,7 @@ header .logo {
 section.hero {
     width: 100vw;
     height: 90vh;
-    /* background: #f8f1f1; */
+    /* background: #f09696; */
     display: flex;
     align-items: center;
 }
@@ -106,14 +106,6 @@ section.hero .hero-content .hero-text {
     justify-content: center;
     align-items: center;
 }
-
-
-/* section.hero .hero-content::before{
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 4.5rem;
-} */
 
 section.hero .hero-content .hero-text h2 {
     font-size: var(--hero-text-h2);
@@ -192,7 +184,7 @@ section.quem-somos .quemSomosImg{
 
 
 section.quem-somos .quemSomosTexto {
-    background: #fdf9f9;
+    background: #fcf8f8;
     width: 50%;
     height: 100%;
     padding: 2rem;
@@ -229,15 +221,42 @@ section.quem-somos img.undraw{
 
 
 @media screen and (max-width: 992px) {
+    section.hero .hero-content .hero-img-container{
+        display: none;
+    }
+
+    section.hero .hero-content .hero-text{
+        width: 100%;
+    }
+
     section.quem-somos{
-        justify-content: initial;
+        width: 100%;
+        padding: 0;
+        /* background: #936868; */
+        /* justify-content: initial; */
     }
 
     section.quem-somos .quemSomosImg {
         display: none;
     }
-
+    
     section.quem-somos .quemSomosTexto{
         width: 100%;
+        padding: 0;
+        /* background: #000; */
+    }
+
+    section.quem-somos .quemSomosTexto p{
+        width: 100vw;
+    }
+
+    section.quem-somos .quemSomosTexto img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        display: none;
     }
 }
